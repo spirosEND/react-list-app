@@ -68,3 +68,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+# we used fetch() to connect the front end with the SpringBoot app
+in the App function
+
+ useEffect(() => {
+    fetch('http://localhost:8080/hello')
+      .then(response => response.text())
+      .then(result => console.log(result));
+  })
