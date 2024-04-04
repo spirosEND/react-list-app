@@ -3,8 +3,11 @@ import './App.css'
 import SearchBar from './Components/SearchBar'
 
 function App() {
+
   return (
-     <div classname='App'>
+
+    
+     <div className='App'>
        <SearchBar/>
      </div>
   )
